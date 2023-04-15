@@ -1,0 +1,107 @@
+/* Spotlight (style2) */
+
+.spotlight.style2 {
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    position: relative;
+    overflow-x: hidden;
+    text-align: left;
+    background-color: #111111;
+    color: white;
+}
+
+    .spotlight.style2 .content {
+        width: 44.5rem;
+        max-width: 100%;
+    }
+
+    .spotlight.style2 .header {
+        width: 44.5rem;
+        max-width: 100%;
+        display: flex;
+    }
+
+    .spotlight.style2 .image {
+        -moz-flex-grow: 0;
+        -webkit-flex-grow: 0;
+        -ms-flex-grow: 0;
+        flex-grow: 0;
+        -moz-flex-shrink: 0;
+        -webkit-flex-shrink: 0;
+        -ms-flex-shrink: 0;
+        flex-shrink: 0;
+        border-radius: 100%;
+        height: 30vh;
+        width: 30vh;
+    }
+
+        .spotlight.style2 .image img {
+            -moz-object-fit: cover;
+            -webkit-object-fit: cover;
+            -ms-object-fit: cover;
+            object-fit: cover;
+            -moz-object-position: center;
+            -webkit-object-position: center;
+            -ms-object-position: center;
+            object-position: center;
+            display: block;
+            width: 100%;
+            height: 100%;
+            border-radius: 100%;
+        }
+
+    .spotlight.style2.orient-left {
+        -moz-flex-direction: row;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+
+        .spotlight.style2.orient-left .image {
+            margin: 0 0 2rem 3.5rem;
+        }
+
+        @media screen and (max-width: 736px) {
+
+            .spotlight.style2.orient-left .image {
+                margin: 0 0 2rem 2rem;
+            }
+
+        }
+
+        @media screen and (orientation: portrait) {
+
+            .spotlight.style2.orient-left {
+                -moz-flex-direction: column-reverse;
+                -webkit-flex-direction: column-reverse;
+                -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+            }
+
+                .spotlight.style2.orient-left .image {
+                    margin-left: 0;
+                }
+
+        }
+
+    .spotlight.style2.content-align-center {
+        text-align: center;
+    }
+
+    .spotlight.style2.content-align-right {
+        text-align: right;
+    }

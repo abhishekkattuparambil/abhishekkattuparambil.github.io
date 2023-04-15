@@ -1,0 +1,27 @@
+h1 {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.experience {
+    background-color: #111111;
+}
+
+hr.wide{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    color: white;
+    position: relative;
+    left: 10vw;
+    margin-bottom: 50px;
+}
+
+hr{
+    background-color: white;
+    width: 60vw;
+    height: 2px;
+    color: white;
+    position: relative;
+    left: 20vw;
+}

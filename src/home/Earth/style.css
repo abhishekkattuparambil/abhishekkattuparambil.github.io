@@ -1,0 +1,11 @@
+#time-log {
+    position: absolute;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgba(200, 200, 200, 0.1);
+    color: lavender;
+    top: 70px;
+    right: 15px;
+}

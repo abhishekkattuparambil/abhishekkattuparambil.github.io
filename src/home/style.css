@@ -1,0 +1,62 @@
+.home {
+    background-color: #222222;
+    display: flex;
+    flex-direction: row;
+}
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+#header {
+    position: absolute;
+    z-index: 999;
+    padding-left: 5vw;
+    top: 5vh;
+    padding-top: 10vh;
+    width: 35vw;
+    height: 95vh;
+    color: white;
+}
+
+#header h1 {
+    margin-bottom: 3.5vh;
+    color: white;
+    text-align: left;
+}
+
+#header h3 {
+    animation: fadeInAnimation ease 5s;
+    margin-bottom: 2vh;
+}
+
+#header span {
+    animation: fadeInAnimation ease 7s;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.oracle {
+    color: #C74634;
+}
+
+.meta {
+    color: #0668E1;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+#world {
+    overflow: hidden;
+    max-width: 100vw;
+}

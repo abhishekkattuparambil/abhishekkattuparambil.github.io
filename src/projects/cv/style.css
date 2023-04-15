@@ -1,0 +1,77 @@
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    font-size: 32px;
+    margin: 0px 50px 0px 50px;
+}
+
+p {
+    font-size: 18px;
+    margin: 25px 50px 25px 50px;
+}
+
+figure { 
+    display: inline-block;
+}
+
+figure figcaption {
+    color: gray;
+    font-size: 15px;
+}
+
+.pentalogy {
+    width: 18vw;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.tetralogy {
+    width: 24vw;
+}
+
+.trilogy {
+    width: 30vw;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.duo {
+    width: 45vw;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.gallery {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.panel {
+    display: flex;
+    flex-direction: row;
+    margin: 25px 400px 25px 300px;
+}
+
+.panel img {
+    width: 100%;
+}
+
+.grid {
+    margin: 10px;
+    text-align: center;
+}
+
+.grid img {
+    margin: 5px;
+    width: 31vw;
+    display: inline-grid;
+    transition: 0.5s ease;
+}
