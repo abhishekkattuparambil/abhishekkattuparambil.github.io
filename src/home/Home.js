@@ -10,7 +10,7 @@ function Home() {
     } else if (hrs >= 12 && hrs < 18) {
         welcomeString = 'Good Afternoon,'
     }
-    console.log(welcomeString)
+    
     return (
         <div className='wrapper'>
             <div id="header">
@@ -25,7 +25,8 @@ function Home() {
                     In May, I'll be graduating from the University of California, Berkeley with Bachelors Degrees in Computer Science and Astrophysics.
                 </h3>
                 <h3>
-                    I have previously interned at <span style={{color: '#1877f2'}}>Meta</span> in a full-stack role, and developed a next-gen ETL pipeline at <span style={{color: '#c74634'}}>Oracle</span> using Apache Spark deployed on Kubernetes. 
+                    I have previously developed information review platforms at <span style={{color: '#1877f2'}}>Meta</span> in a full-stack role, 
+                    and architected a next-gen ETL pipeline at <span style={{color: '#c74634'}}>Oracle</span> using Apache Spark deployed on Kubernetes. 
                     Currently, I am interested in applying ML/CV techniques to facilitate the automated analysis of physical systems. 
                 </h3>
             </div>

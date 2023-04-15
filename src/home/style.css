@@ -12,10 +12,8 @@
     position: absolute;
     z-index: 999;
     padding-left: 5vw;
-    top: 5vh;
-    padding-top: 10vh;
-    width: 35vw;
-    height: 95vh;
+    top: 10vh;
+    width: 40vw;
     color: white;
 }
 
@@ -23,15 +21,17 @@
     margin-bottom: 3.5vh;
     color: white;
     text-align: left;
+    font-size: 5vh;
 }
 
 #header h3 {
     animation: fadeInAnimation ease 5s;
     margin-bottom: 2vh;
+    font-size: 3.4vh;
 }
 
 #header span {
-    animation: fadeInAnimation ease 7s;
+    animation: fadeInAnimation ease 5s;
 }
 
 @keyframes fadeInAnimation {
