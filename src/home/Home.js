@@ -21,12 +21,13 @@ function Home() {
                     }}/>
                 </h1>
                 <h3>
-                    Nice to meet you, I'm Abhi. 
+                    I'm Abhishek Kattuparambil. 
                     In May, I'll be graduating from the University of California, Berkeley with Bachelors Degrees in Computer Science and Astrophysics.
                 </h3>
                 <h3>
-                    I have previously developed information review platforms at <span style={{color: '#1877f2'}}>Meta</span> in a full-stack role, 
-                    and architected a next-gen ETL pipeline at <span style={{color: '#c74634'}}>Oracle</span> using Apache Spark deployed on Kubernetes. 
+                    I have previously developed information review platforms at <span className='meta'><a href="https://about.fb.com/news/tag/civic-engagement/">Meta</a></span>, 
+                    architected a next-gen ETL pipeline at <span  className='oracle'><a href="https://www.oracle.com/erp/financials/">Oracle</a></span>, and
+                    built mobile applications at <span className='mdb'><a href="https://mdb.dev">MDB</a></span> and <span className='tekplay'><a href="https://tekplay.com">Tekplay Systems</a></span>. 
                     Currently, I am interested in applying ML/CV techniques to facilitate the automated analysis of physical systems. 
                 </h3>
             </div>

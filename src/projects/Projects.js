@@ -1,4 +1,3 @@
-import { Container, Row, Col } from "react-bootstrap";
 import {Link} from 'react-router-dom';
 import './style.css'
 import p1 from '.././images/p1.jpg'
@@ -31,58 +30,51 @@ const cv = [
 const astro = [
     {title: "Stellar Property Estimations via Isochrone Fitting", pdf: pdf1, img: l1},
     {title: "Deriving the Galactic Dust Map via the Period-Color Relation", pdf: pdf2, img: l2},
+    {title: "Galaxy Morphology Classifications with Convolutional Neural Networks", pdf: pdf4, img: l4},
     {title: "Stellar Parameter Estimation via APOGEE Spectra", pdf: pdf3, img: l3},
-    {title: "Galaxy Morphology Classifications with Convolutional Neural Networks", pdf: pdf4, img: l4}
 ]
 
 function Projects() {
     return (
         <div className="wrapper">
           {/*CV header*/}
-          <Container className="About-header">
-          <Row className="mb-5 mt-3">
-            <Col lg="8">
-              <h1 className="display-4 mb-4"> Computer Vision </h1>{" "}
-              <hr className="t_border my-4 ml-0 text-left" />
-            </Col>
-          </Row>
+          <h1>Computer Vision</h1>
+          <hr/>
           {/*CV projects*/}
-          <div className="mb-1 po_items_ho">
+          <div className="row">
             {cv.map((proj, i) => {
               return (
-                <div key={i} className="po_item">
+                <div key={i} className='project'>
                   <img src={proj.img} alt=""/>
-                  <h3>
-                      <Link as={Link} to={proj.link}>{proj.name}</Link>
-                  </h3>
-                  <hr className="text-left" />
-                  <p>{proj.desc}</p>
+                  <Link to={proj.link}>
+                    <div className='overlay'>
+                      <h2>{proj.name}</h2>
+                      <h3>{proj.desc}</h3>
+                    </div>
+                  </Link>
                 </div>
               );
             })}
           </div>
-        </Container>
 
         {/*Astro header*/}
-        <Container className="About-header">
-          <Row className="mb-5 mt-3">
-            <Col lg="8">
-              <h1 className="display-4 mb-4"> Astrophysics </h1>{" "}
-              <hr className="t_border my-4 ml-0 text-left" />
-            </Col>
-          </Row>
+          <h1>Astrophysics</h1>
+          <hr/>
           {/*Astro projects*/}
-          <div className="mb-1 po_items_ho">
+          <div className="row">
             {astro.map((proj, i) => {
               return (
-                <div key={i} className="po_item">
+                <div key={i} className="project">
                   <img src={proj.img} alt=""/>
-                  <h3><u><a href={proj.pdf}>{proj.title}</a></u></h3>
+                  <a href={proj.pdf}>
+                    <div className="overlay">
+                      <h2>{proj.title}</h2>
+                    </div>
+                  </a>
                 </div>
               );
             })}
           </div>
-        </Container>
       </div>
     )
 }

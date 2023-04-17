@@ -88,7 +88,7 @@ return <div className="crop">
         objectThreeObject={satObject}
         backgroundColor="#111111"
         height={window.innerHeight-50}
-        width={window.innerWidth*1.3}
+        width={window.innerWidth*1.4}
       />
     <div id="time-log">{time.toString()}</div>
 </div>;

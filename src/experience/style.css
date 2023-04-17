@@ -1,10 +1,10 @@
-h1 {
-    color: white;
-    padding-bottom: 10px;
-}
-
 .experience {
     background-color: #111111;
+}
+
+.experience h1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 hr.wide{

@@ -12,7 +12,7 @@
     position: absolute;
     z-index: 999;
     padding-left: 5vw;
-    top: 10vh;
+    top: 12vh;
     width: 40vw;
     color: white;
 }
@@ -30,8 +30,9 @@
     font-size: 3.4vh;
 }
 
-#header span {
-    animation: fadeInAnimation ease 5s;
+#header a, a:hover {
+    text-decoration: none;
+    color: inherit;
 }
 
 @keyframes fadeInAnimation {
@@ -49,6 +50,14 @@
 
 .meta {
     color: #0668E1;
+}
+
+.mdb {
+    color: #ffda3b;
+}
+
+.tekplay {
+    color: #0074bd;
 }
 
 .wrapper {
