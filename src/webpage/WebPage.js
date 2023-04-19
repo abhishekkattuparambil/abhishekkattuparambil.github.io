@@ -1,4 +1,4 @@
-import {Navbar, Nav, Container, Row, Col} from 'react-bootstrap';
+import {Navbar, Nav, Container} from 'react-bootstrap';
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import Home from '../home/Home'
 import Projects from '../projects/Projects'
@@ -16,14 +16,14 @@ import Style from '../projects/cv/Style'
 
 function NavigationBar() {
     return (
-            <Navbar bg="dark" variant="dark">
-            <Container>
+    <Navbar bg="dark" variant="dark">
+        <Container>
             <Navbar.Brand href="/">Abhishek Kattuparambil</Navbar.Brand>
             <Navbar.Toggle className='basic-navbar-nav'/>
                 <Nav className="mr-auto">
                     <Nav.Link as={Link} to={"/experience"}>Experience</Nav.Link>
                     <Nav.Link as={Link} to={"/projects"}>Projects</Nav.Link>
-                    <Nav.Link as={Link} to={"/skills"}>Skills</Nav.Link>
+                    <Nav.Link as={Link} to={"/about"}>About</Nav.Link>
                 </Nav>
             </Container>
         </Navbar>
