@@ -25,13 +25,13 @@ const cv = [
     {link: "/projects/style", name: "Artistic Style Transfer", desc: "Developed a neural model to synthesize artistic style and draw a given image using learned techniques, specifically emphasizing patterns and color scheme. In the example, the model has redrawn an image of the Painted Ladies in the style of Starry Nights.", img: p7},
     {link: "/projects/detection", name: "Facial Keypoint Detection", desc: "Using PyTorch, developed a neural network to automatically detect 58 specified facial key points. Used for automated morphing and tracking.", img: p5},
     {link: "/projects/mosaic", name: "Auto-Stitching Photo Mosaics", desc: "Recovered homography matrices and performed perspective warps to stitch panoramas together. Automated with Harris Interest Point Detector, ANMS, feature extraction, and RANSAC algorithms.", img: p4},
-    {link: "/projects/lightfield", name: "Depth Refocusing and Aperature Adjustment with Light Field Data", desc: "", img: p8}]
+    {link: "/projects/lightfield", name: "Lightfield Camera", desc: "Procedural depth refocusing and aperture adjustment based on Stanford Light Field Archive lightfield camera data. ", img: p8}]
 
 const astro = [
     {title: "Stellar Property Estimations via Isochrone Fitting", pdf: pdf1, img: l1, desc: 'Fitting GAIA stellar clusters to isochrones on a color-magnitude (HR) diagram to estimate their stellar properties.'},
     {title: "Deriving the Galactic Dust Map via the Period-Color Relation", pdf: pdf2, img: l2, desc:'Fitting Fourier models to GAIA light curve data for selected RR Lyrae sources. Created a galactic dust map by estimating absolute magnitudes of RR Lyrae with a best-fit period-magnitude relation.'},
-    {title: "Galaxy Morphology Classifications with Convolutional Neural Networks", pdf: pdf4, img: l4, desc:''},
-    {title: "Stellar Parameter Estimation via APOGEE Spectra", pdf: pdf3, img: l3, desc:''},
+    {title: "Galaxy Morphology Classifications with Convolutional Neural Networks", pdf: pdf4, img: l4, desc:'Developed a tool for automatic inference of GZ2 galaxy images, estimating morphological features with high confidence. Experimentation and comparisons for novel and ResNet models. '},
+    {title: "Stellar Parameter Estimation via APOGEE Spectra", pdf: pdf3, img: l3, desc:'Built a generative model trained on ASPCAP labels, such that forward-propagated least squares can predict a stellar spectra from labels, and a backwards nonlinear optimizer can derive stellar labels given a spectra.'},
 ]
 
 function Projects() {

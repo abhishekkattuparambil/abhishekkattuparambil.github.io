@@ -4,7 +4,7 @@ import Banner from '../components/banner/Banner.js'
 import meta from '../images/meta.png'
 import oracle from '../images/oracle.png'
 import mdb from '../images/mdb.png'
-import tekplay from '../images/tekplay.jpeg'
+import tekplay from '../images/tekplay.png'
 
 function Experience() {
     return (
