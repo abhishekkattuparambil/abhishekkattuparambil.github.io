@@ -12,14 +12,15 @@
   overflow: hidden;
   width: 400px;
   height: 400px;
+  transition: ease 0.5s;
 }
 
 .project img {
+  border-radius: 20px;
   opacity: 1;
-  object-fit:cover;
-  height: auto;
+  width: 100%;
+  height: 100%;
   transition: .5s ease;
-  backface-visibility: hidden;
 }
 
 /*FIXME: overlay goes over image size*/
@@ -59,8 +60,6 @@
 
 .project:hover img {
   opacity: 0.3;
-  transform: scale(1.05);
-  transition: ease 0.5s;
 }
 
 .project:hover {
