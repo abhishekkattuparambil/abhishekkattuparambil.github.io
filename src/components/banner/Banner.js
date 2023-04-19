@@ -1,19 +1,22 @@
 import './style.css'
 
-const Banner = ({title, body, image, date, orient="orient-left"}) => {
+const Banner = ({loc,title, team, role="Software Engineering Intern", body, image, date}) => {
     return (
-        <section className={`spotlight style2 ${orient}`}>
-            <div className="content">
-                <div className="header">
+        <div className='experience'>
+            <div className='banner'>
+                <div className='header'>
                     <h2>{title}</h2>
-                    <h2>                <i>{date}</i></h2>
+                    <h3>{role}</h3>
+                    <h3>{team}</h3>
+                    <h3>{loc}</h3>
+                    <h3>{date}</h3>
                 </div>
-                <p>{body}</p>
+                <div className='logo'>
+                    <img className='image' src={image} alt={title + 'Logo'}></img>
+                </div>
             </div>
-            <div className="image">
-                <img src={image} alt="" />
-            </div>
-        </section>
+            <p>{body}</p>
+        </div>
     )
 }
 

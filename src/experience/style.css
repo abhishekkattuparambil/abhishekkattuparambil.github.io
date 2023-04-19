@@ -1,8 +1,9 @@
-.experience {
+.page {
     background-color: #111111;
+    padding-bottom: 20px;
 }
 
-.experience h1 {
+.page h1 {
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
