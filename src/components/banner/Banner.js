@@ -2,7 +2,7 @@ import './style.css'
 
 const Banner = ({loc,title, team, role="Software Engineering Intern", body, image, date}) => {
     return (
-        <div className='experience'>
+        <div className={team === "" ? 'club' : 'experience'}>
             <div className='banner'>
                 <div className='header'>
                     <h2>{title}</h2>

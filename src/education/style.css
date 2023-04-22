@@ -1,0 +1,38 @@
+.ed {
+    height: calc(100vh - 50px);
+    background-color: #111111;
+}
+
+.university {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10vw;
+}
+.ed img {
+    height: 175px;
+    width: auto;
+    margin-right: 20px;
+}
+
+.ed h2 {
+    font-size: 40px;
+    color: white;
+    margin-left: 0;
+}
+
+hr.wide{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    color: white;
+    position: relative;
+    left: 10vw;
+    margin-bottom: 25px;
+}
+
+.university h3 {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 20pt;
+}

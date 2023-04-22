@@ -14,16 +14,19 @@ const Navbar = () => {
     
     return (
         <nav className='nav'>
-            <a href="/"><h2>Abhishek Kattuparambil</h2></a>
+            <a href="/"><h2>Home</h2></a>
             <ul className='links'>
                 <li>
-                <a href="/experience"><h3>Experience</h3></a>
+                    <a href="/experience"><h3>Experience</h3></a>
                 </li>
                 <li>
-                <a href="/projects"><h3>Projects</h3></a>
+                    <a href="/education"><h3>Education</h3></a>  
                 </li>
                 <li>
-                <a href="/about"><h3>About</h3></a>
+                    <a href="/projects"><h3>Projects</h3></a>
+                </li>
+                <li>
+                    <a href="/about"><h3>About</h3></a>
                 </li>
             </ul>
         </nav>

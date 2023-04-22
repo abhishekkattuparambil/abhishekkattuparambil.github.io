@@ -1,0 +1,19 @@
+.about {
+    background-color: #111111;
+    height: calc(100vh - 50px);
+    flex-direction: row;
+    display: flex;
+}
+
+.me {
+    margin-top: calc(15vh - 25px);
+    margin-left: 5vw;
+    height: 70vh;
+    width: 52.5vh;
+}
+
+.about h3 {
+    margin: 5vh 10vw 10vh 10vw;
+    font-size: 24px;
+    color: white;
+}

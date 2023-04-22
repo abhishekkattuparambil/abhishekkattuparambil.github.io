@@ -11,10 +11,12 @@
 }
 
 .image {
-    max-width: 10vw;
-    max-width: auto;
+    height: 150px;
+    width: auto;
     margin: 10px 50px 0 0;
 }
+
+
 
 .header {
     text-align: left;
@@ -29,7 +31,8 @@
     margin: 10px 0 5px 45px;
 }
 
-.experience p {
+.experience p, 
+.club p{
     color: white;
     margin: 10px 45px 10px 45px;
 }
@@ -40,7 +43,7 @@
     margin: 0 0 3px 45px;
 }
 
-.experience {
+.experience, .club {
     border-radius: 5vw;
     border-color: whitesmoke;
     border-width: 2px;
@@ -53,7 +56,18 @@
     overflow: hidden;
 }
 
-.experience:hover{
+.experience:hover, 
+.club:hover{
     max-height: 1000px;
     transition: ease 2s;
+}
+
+.club {
+    max-height: 125px;
+}
+
+.club .image {
+    height: 100px;
+    width: auto;
+    margin-bottom: 10px;
 }

@@ -13,30 +13,31 @@
 }
 
 .nav a {
-    color: white;
+    color: lightgray;
     text-decoration: none;
 }
 
 .nav a:hover {
-    color: whitesmoke;
+    color: white;
 }
 
 .nav img {
     height: 40px;
 }
 
-a h2 {
-    font-size: 26px;
-    margin-top: 8px;
-    margin-left: 20px;
+a h3 {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 12px;
 }
 
 li {
     margin-right: 20px;
     list-style: none;
-    margin-top: 10px;
 }
 
-a h3 {
-    font-size: 24px;
+a h2 {
+    font-size: 30px;
+    margin-left: 25px;
+    margin-top: 6px;
 }
