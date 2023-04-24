@@ -41,7 +41,7 @@ function Experience() {
                 body="During this internship, I worked closely with my mentor to develop “The Offer”, a mobile app aiming to streamline the event-planning process. We developed this cross-platform app in C# on Xamarin, and prototyped it in Java on Android Studios. " 
                 image={tekplay}
                 date="May 2018 - August 2018"/>
-            <h1>Extracurricular</h1>
+            <h1>Extracurriculars</h1>
             <hr className='wide'/>
             <Banner 
                 team = ""
