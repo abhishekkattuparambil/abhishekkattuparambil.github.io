@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/navbar/Navbar'
-import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './home/Home'
 import About from './about/About.js'
 import Projects from './projects/Projects'
@@ -16,13 +16,13 @@ import Style from './projects/cv/Style'
 
 function App() {
   return (
-    <Router>
+    <Router basename='/'>
         <div>
             {Navbar()}
         </div>
         <div>
             <Routes>
-                <Route path="/" element={<Home/>}/>
+                <Route exact path="/" element={<Home/>}/>
                 <Route path="/education" element={<Education/>}/>
                 <Route path="/projects" element={<Projects/>}/>
                 <Route path='/about' element={<About/>}/>
@@ -33,7 +33,7 @@ function App() {
                 <Route path="/projects/detection" element={<Detection/>}/>
                 <Route path="/projects/gdf" element={<GDF/>}/>
                 <Route path="/projects/style" element={<Style/>}/>
-                <Route path="/experience" element={<Experience/>}/>
+                <Route exact path="/experience" element={<Experience/>}/>
             </Routes>
         </div>
     </Router>
