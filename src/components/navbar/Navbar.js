@@ -12,11 +12,17 @@ const Navbar = () => {
       const newTheme = theme === 'light' ? 'dark' : 'light';
       setTheme(newTheme);
     }
+
+    function toggleHamburger(icon) {
+        icon.classList.toggle("change");
+      }
     
     return (
         <nav className='nav'>
             <a href="/"><h2>Home</h2></a>
-            <ul className='links'>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul className='menu'>
                 <li>
                     <Link to={"/experience"}><h3>Experience</h3></Link>
                 </li>

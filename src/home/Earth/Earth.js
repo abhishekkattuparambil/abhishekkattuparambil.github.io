@@ -10,7 +10,7 @@ import './style.css'
 const World = () => {
 const EARTH_RADIUS_KM = 6371; // km
 const SAT_SIZE = 100; // km
-const TIME_STEP = 150; // per frame
+const TIME_STEP = 250; // per frame
 
 const globeEl = useRef();
 const [satData, setSatData] = useState();

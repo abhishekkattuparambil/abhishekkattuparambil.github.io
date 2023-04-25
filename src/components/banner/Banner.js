@@ -4,7 +4,7 @@ const Banner = ({loc,title, team, role="Software Engineering Intern", body, imag
     return (
         <div className={team === "" ? 'club' : 'experience'}>
             <div className='banner'>
-                <div className='header'>
+                <div className='details'>
                     <h2>{title}</h2>
                     <h3>{role}</h3>
                     <h3>{team}</h3>
