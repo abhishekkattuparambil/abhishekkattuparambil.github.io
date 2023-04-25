@@ -48,7 +48,7 @@ function Experience() {
                 role = ""
                 loc="Berkeley, CA"
                 title="Mobile Developers of Berkeley" 
-                body="When I first joined MDB, I completed two intensive programs in Swift and React Native development, comprising twelve mini projects. Furthermore, I have worked on the contract team to develop a React Native application for an external client, and have served on social committee to focus on member development and integration." 
+                body="When I first joined MDB, I completed two intensive programs in Swift and React Native development, comprising twelve mini projects. Shortly after, I worked on the contract team to develop a React Native application for an external client, and have served on social committee to focus on member development and integration." 
                 image={mdb}
                 date="August 2020 - Present"/>
         </div>

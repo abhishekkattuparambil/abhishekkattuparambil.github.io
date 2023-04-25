@@ -69,5 +69,40 @@
 .club .image {
     height: 100px;
     width: auto;
-    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    .header h2 {
+        font-size: 14pt;
+        margin-left: 20px;
+    }  
+
+    .header h3 {
+        font-size: 9pt;
+        margin-left: 20px;
+    }
+
+    .experience .image {
+        margin-top: 0px;
+        margin-right: 20px;
+        height: 120px;
+    }
+
+    .club .image {
+        height: 80px;
+        margin-right: 20px;
+    } 
+
+    .experience {
+        max-height: 120px;
+    }
+
+    .club {
+        max-height: 110px;
+    }
+
+    .experience p, .club p {
+        font-size: 8pt;
+        margin-left: 20px;
+    }
 }

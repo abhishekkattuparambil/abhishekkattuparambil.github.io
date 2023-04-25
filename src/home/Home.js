@@ -12,7 +12,7 @@ function Home() {
     }
     
     return (
-        <div className='wrapper'>
+        <div className='home'>
             <div id="header">
                 <h1>
                     <Typewriter options={{

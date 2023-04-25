@@ -3,22 +3,37 @@
     height: fit-content;
     flex-direction: row;
     display: flex;
+    min-height: calc(100vh - 50px);
 }
 
 .me {
     margin-top: calc(15vh - 25px);
     margin-left: 5vw;
-    height: 70vh;
-    width: 52.5vh;
+    max-height: 70vh;
+    max-width: 40vw;
+    height: auto;
+    width: auto;
     margin-bottom: calc(15vh - 25px);
 }
 
 .about h3 {
-    margin: 2.5vh 10vw 10vh 10vw;
+    margin: 5vh 10vw 10px 10vw;
     color: white;
 }
 
 .info {
     height: 80vh;
+}
 
+@media only screen and (max-width: 1200px) {
+    .about h3 {
+        font-size: 20px;
+        margin: 5vh 5vw 10px 5vw;
+        transition: ease 1s;
+    }
+
+    .me {
+        margin-left: 25px;
+
+    }
 }
