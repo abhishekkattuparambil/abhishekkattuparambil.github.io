@@ -46,12 +46,12 @@ function Projects() {
               return (
                 <div key={i} className='project'>
                   <img src={proj.img} alt=""/>
-                  <Link to={proj.link}>
+                  {/*  <Link to={proj.link}> */}
                     <div className='overlay'>
                       <h2>{proj.name}</h2>
                       <h3>{proj.desc}</h3>
                     </div>
-                  </Link>
+                  {/*  </Link> */}
                 </div>
               );
             })}

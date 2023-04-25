@@ -19,7 +19,7 @@
 .about h3 {
     margin: 10vh 10vw 10px 10vw;
     color: white;
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .info {
@@ -27,6 +27,10 @@
 }
 
 @media only screen and (max-width: 1200px) {
+    .about {
+        flex-direction: column;
+    }
+
     .about h3 {
         font-size: 17px;
         margin: 5vh 5vw 10px 5vw;

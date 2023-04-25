@@ -51,7 +51,7 @@
     width: 70vw;
     margin: auto;
     margin-bottom: 25px;
-    max-height: 173px;
+    max-height: 178px;
     transition: ease 0.5s;
     overflow: hidden;
 }
@@ -94,7 +94,7 @@
     } 
 
     .experience {
-        max-height: 120px;
+        max-height: 125px;
     }
 
     .club {
