@@ -1,4 +1,5 @@
 import './style.css'
+import {Link} from 'react-router-dom'
 import { useState } from 'react'
 import sun from '../../images/sun.png'
 import moon from '../../images/moon.png'
@@ -17,13 +18,13 @@ const Navbar = () => {
             <a href="/"><h2>Home</h2></a>
             <ul className='links'>
                 <li>
-                    <a href="/experience"><h3>Experience</h3></a>
+                    <Link to={"/experience"}><h3>Experience</h3></Link>
                 </li>
                 <li>
-                    <a href="/projects"><h3>Projects</h3></a>
+                    <Link to={"/projects"}><h3>Projects</h3></Link>
                 </li>
                 <li>
-                    <a href="/about"><h3>About</h3></a>
+                    <Link to={"/about"}><h3>About</h3></Link>
                 </li>
             </ul>
         </nav>
